@@ -24,11 +24,12 @@ nav a {
 nav a:hover {
     background-color: orangered;
     color: white;
+
 }
 
 .container {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     margin-top: 50px;
 }
 
@@ -51,6 +52,36 @@ nav a:hover {
 .box:hover {
     cursor: pointer;
 }
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+}
+
+.box {
+    background-color: rgb(145, 145, 145);
+    padding: 20px;
+    margin: 10px;
+    width: 20%;
+    border-radius: 20px;
+    text-align: start;
+    color: white;
+    box-shadow:  0 4px 8px 5px rgba(0, 0, 0, 0.265);
+    font-size: 20px;
+}
+
+.box:active {
+    box-shadow: none;
+}
+
+.box:hover {
+    cursor: pointer;
+}
+
+img{
+    padding: 10px; 
+  }
 
 footer {
     background-color: rgb(94, 93, 93);
