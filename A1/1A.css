@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(44, 43, 43);
+    font-family: sans-serif;
+    color: rgb(56, 56, 56);
+    margin: 0;
+}
+header {
+    background-color: rgb(216, 92, 21);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+nav {
+    background-color: gray;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: start;
+    margin-top: 50px;
+}
+
+.box {
+    background-color: rgb(145, 145, 145);
+    padding: 20px;
+    margin: 10px;
+    width: 20%;
+    border-radius: 20px;
+    text-align: start;
+    color: white;
+    box-shadow:  0 4px 8px 5px rgba(0, 0, 0, 0.265);
+    font-size: 20px;
+}
+
+.box:active {
+    box-shadow: none;
+}
+
+.box:hover {
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgb(94, 93, 93);
+    padding: 10px;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    text-align: center;
+}
