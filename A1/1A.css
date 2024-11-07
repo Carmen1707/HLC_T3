@@ -1,40 +1,48 @@
-body {
+body 
+{
     background-color: rgb(44, 43, 43);
     font-family: sans-serif;
     color: rgb(56, 56, 56);
     margin: 0;
 }
-header {
+header 
+{
     background-color: rgb(216, 92, 21);
     color: white;
     text-align: center;
     padding: 10px;
 }
-nav {
+nav 
+{
     background-color: gray;
     padding: 10px;
     display: flex;
     justify-content: space-between;
 }
 
-nav a {
+nav a 
+{
     text-decoration: none;
 }
 
-nav a:hover {
+nav a:hover 
+{
     background-color: orangered;
     color: white;
 
 }
 
-.container {
+.container
+{
     display: flex;
     justify-content: flex-start;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
-.box {
+.box1 
+{
     background-color: rgb(145, 145, 145);
+    color: orangered;
     padding: 20px;
     margin: 10px;
     width: 20%;
@@ -45,21 +53,25 @@ nav a:hover {
     font-size: 20px;
 }
 
-.box:active {
+.box1:active 
+{
     box-shadow: none;
 }
 
-.box:hover {
+.box1:hover 
+{
     cursor: pointer;
 }
 
-.container {
+.container 
+{
     display: flex;
     justify-content: flex-end;
     margin-top: 50px;
 }
 
-.box {
+.box2 
+{
     background-color: rgb(145, 145, 145);
     padding: 20px;
     margin: 10px;
@@ -71,19 +83,23 @@ nav a:hover {
     font-size: 20px;
 }
 
-.box:active {
+.box2:active 
+{
     box-shadow: none;
 }
 
-.box:hover {
+.box2:hover 
+{
     cursor: pointer;
 }
 
-img{
+img
+{
     padding: 10px; 
-  }
+}
 
-footer {
+footer 
+{
     background-color: rgb(94, 93, 93);
     padding: 10px;
     position: fixed;
